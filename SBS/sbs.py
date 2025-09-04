@@ -49,7 +49,7 @@ class SBS():
 knn = KNeighborsClassifier(n_neighbors=5)
 sbs = SBS(knn, k_features=1)
 sbs.fit(X_train_std, y_train)
-print(sbs.subsets_)
+
 
             
     
